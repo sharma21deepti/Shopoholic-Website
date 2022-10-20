@@ -84,7 +84,7 @@ display:none;
 
 
 #hero{
-    background-image: url("images/hero4.png");
+    background-image: url("images/unsplash.jpg");
     height:90vh;
     width:100%;
     background-size: cover;
@@ -747,5 +747,146 @@ footer .copyright {
     /* footer .copyright{
         text-align:start;
     } */
+}
+#page-header{
+    background-image: url("images/banner/pexels-karolina-ostrzolek-3262937.jpg");
+    height:35vh;
+    width:100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:0 80px;
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content:center; 
+    
+}
+#page-header h2{
+    font-size: 70px;
+    /* text-shadow: #fffefe; */
+}
+#page-header p{
+    font-size:25px;
+    font-weight:bold;
+}
+
+#pagination{
+text-align:center;
+}
+#pagination a{
+    /* border:1px solid #f1815c; */
+    background-color: #f1815c;
+    color:white;
+    padding:11px 16px;
+    margin:3px;
+    border-radius:5px;
+    text-decoration: none;
+
+}
+#pagination a i{
+    font-size:19px;
+}
+#pagination .single-image{
+    width:40%;
+    margin-right:50px; 
+}
+#prodetails .single-image{
+    width:40%;
+    margin-right:50px;
+}
+.small-img-grp{
+    display:flex;
+    justify-content:space-between;
+}
+.small-img-col{
+    /* flex-basis:20%; */
+    cursor:pointer;
+    margin:6px;
+}
+#prodetails {
+    display:flex;
+    /* height:500px; */
+margin-top:20px;
+
+}
+#prodetails .single-det{
+    width:50%;
+}
+#prodetails .single-det h6{
+font-size: 17px;
+padding:4px;
+}
+#prodetails .single-det h4{
+    font-size:30px;
+    padding-bottom:5px;
+}
+#prodetails .single-det h2{
+    color:#f1815c;
+    padding-bottom:5px;
+}
+#prodetails .single-det .size,#prodetails .single-det .size1{
+    height:30px;
+    border:2px solid #f1815c;
+    border-radius:4px;
+    margin-top:8px;
+/* text-align:center; */
+}
+#prodetails .single-det .size{
+    width:150px;
+}
+#prodetails .single-det .size1{
+text-align: center;
+width:80px;
+}
+#prodetails .single-det .size1:active{
+    border:2px solid #f1815c;
+    border-radius:4px;
+}
+#prodetails .single-det button{
+    height:35px;
+    width:150px;
+    display:block;
+    margin-top:20px;
+    border:1px solid #f1815c;
+    border-radius:4px;
+    background-color:#ef9273;
+    font-size:18px;
+    padding:6px;
+    /* font-weight:italic; */
+    box-shadow: 1px #404040;
+    transition-duration: 0.4s;
+}
+
+#prodetails .single-det button:hover{
+    cursor:pointer;
+    background-color:#f26739;
+    color:whitesmoke;
+    border:none;
+}
+
+#prodetails .single-det button span i{
+font-size:13px;
+  
+}
+
+#prodetails .single-det h3{
+    font-size:20px;
+    margin-top:30px;
+
+}
+#prodetails .single-det p{
+    font-size:18px;
+ margin-top: 10px;
+}
+@media (max-width:480px){
+    #prodetails .single-image {
+        width:100%;
+    }   
+    #prodetails .single-det {
+        width:100%;
+    } 
+    
 }
 
