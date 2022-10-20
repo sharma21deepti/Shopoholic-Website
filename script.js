@@ -12,3 +12,20 @@ if (close) {
         nav.classList.remove('active');
     })
 }
+
+// products image change---------
+
+var Mainimg=document.getElementById("MainImg");
+  var Simg=document.getElementsByClassName("small-img");
+  Simg[0].onclick=function(){
+    Mainimg.src=Simg[0].src;
+  }
+  Simg[1].onclick=function(){
+    Mainimg.src=Simg[1].src;
+  }
+  Simg[2].onclick=function(){
+    Mainimg.src=Simg[2].src;
+  }
+  Simg[3].onclick=function(){
+    Mainimg.src=Simg[3].src;
+  }
